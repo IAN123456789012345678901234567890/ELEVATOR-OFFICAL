@@ -1,0 +1,42 @@
+{
+  "HALProvider": {
+    "Other Devices": {
+      "Talon FX[1]": {
+        "header": {
+          "open": true
+        }
+      },
+      "Talon FX[1]/Fwd Limit": {
+        "header": {
+          "open": true
+        }
+      },
+      "Talon FX[1]/Integrated Sensor": {
+        "header": {
+          "open": true
+        }
+      },
+      "Talon FX[1]/Rev Limit": {
+        "header": {
+          "open": true
+        }
+      },
+      "Talon FX[2]/Integrated Sensor": {
+        "header": {
+          "open": true
+        }
+      }
+    }
+  },
+  "NTProvider": {
+    "types": {
+      "/FMSInfo": "FMSInfo",
+      "/LiveWindow/Ungrouped/DigitalInput[0]": "Digital Input",
+      "/LiveWindow/Ungrouped/DigitalInput[1]": "Digital Input",
+      "/LiveWindow/Ungrouped/Talon FX [1]": "Motor Controller",
+      "/LiveWindow/Ungrouped/Talon FX [2]": "Motor Controller",
+      "/SmartDashboard/Auto choices": "String Chooser",
+      "/SmartDashboard/Tele choices": "String Chooser"
+    }
+  }
+}
